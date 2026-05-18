@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Sparkles, TrendingUp, Award, BookOpen, MessageSquare } from 'lucide-react';
-import ReactMarkdown from 'react-markdown'; // Optional: if installed, but let's just use pre for now
 
 const AIRecommendations = () => {
   const [employees, setEmployees] = useState([]);
