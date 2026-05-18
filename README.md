@@ -9,6 +9,10 @@ This repository contains the completed MERN Stack application for the AI308B ESE
 - **Authentication**: JWT & bcrypt for secure login/signup.
 - **AI Integration**: OpenRouter API to analyze employee performance and provide actionable insights.
 
+## Live Demo
+- **Frontend**: [https://hr-frontend-vjni.onrender.com](https://hr-frontend-vjni.onrender.com)
+- **Backend API**: [https://hr-backend-04yp.onrender.com](https://hr-backend-04yp.onrender.com)
+
 ## Directory Structure
 - `/frontend` - React application.
 - `/backend` - Express backend.

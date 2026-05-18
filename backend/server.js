@@ -18,6 +18,15 @@ app.use('/api/auth', authRoutes);
 app.use('/api/employees', employeeRoutes);
 app.use('/api/ai', aiRoutes);
 
+// Root Route for API Status
+app.get('/', (req, res) => {
+  res.json({
+    success: true,
+    message: 'AI-Driven HR System API is running successfully!',
+    version: '1.0.0'
+  });
+});
+
 // Error Handling Middleware
 app.use((err, req, res, next) => {
   console.error(err.stack);
